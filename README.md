@@ -1,3 +1,15 @@
+# NLP
+
+**Regular Expression: (Regex)**
+
+Regular expressions are strings you can use that have a special syntax, which allows you to match patterns and find other strings. 
+A pattern is a series of letters or symbols which can map to an actual text or words or punctuation. You can use regular expressions to do things like find links in a webpage, parse email addresses and remove unwanted strings or characters. 
+The syntax for the regex library is always to pass the pattern first, and the string second.
+
+
+
+
+
 # Transformers
 
 Transformer architecture consists of two blocks:
@@ -26,3 +38,4 @@ Transformer architecture consists of two blocks:
  
  These are simple neural networks that apply complex transformations on each token's embeddings independently. 
  Because each token gets its own transformation, the networks are position- independent, hence, the "position-wise".
+
