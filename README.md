@@ -2,14 +2,14 @@
 
 Transformer architecture consists of two blocks:
 
-**1. Encoder:**
+**Encoder:**
    The encoder block consists of multiple identical layers that are responsible for reading and processing the entire input sequence, generating context-rich numerical representations.
    It does this using self-attention and feed-forward networks.
 
-**2. Decoder:**
+**Decoder:**
    The decoder block essentially does the inverse of the encoder block, generating an output sequence based on the encoded input sequence.
    
-**3. Positional Encodings:**
+**Positional Encodings:**
      Key to both encoder and decoder blocks is positional, which allows tokens to be processed in parallel by encoding each token's position in the sequence. 
      This enables the model to recognize the relationships between tokens and their order, essential for making sense of sentences and capturing their context.
 
@@ -24,3 +24,5 @@ Transformer architecture consists of two blocks:
 
  **Position-Wise feed forward Neural networks:**
  
+ These are simple neural networks that apply complex transformations on each token's embeddings independently. 
+ Because each token gets its own transformation, the networks are position- independent, hence, the "position-wise".
